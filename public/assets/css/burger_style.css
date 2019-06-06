@@ -1,15 +1,49 @@
-body{
-    background-color: bisque;
-    font-family: 'Lato', sans-serif;
+/* body{
+    background-color: whitesmoke;
+    font-family: 'Inconsolata', monospace;
+
     color: darkgoldenrod;
 }
 
 h1{
-    padding: 80px;
-    /* background-image: url(../img/burgerbackground.png);  */
+    padding: 90px;
+    background-image: url(../img/burgerbackground.png); 
+    background-size: contain;
+    background-position-x: no-repeat;
+    background-position-y: no-repeat;
     background-color: brown;
     color: lightsalmon;
     text-align: left;
 
+} */
+
+div.jumbotron{
+    color: brown;
+    background-image: url(../img/burger_onplate_background.jpg);
+    background-color: aqua;
+    background-size: contain;
+    
+}
+
+#bckgcolor{
+    margin: 5px;
+    padding: 20px;
+    color: brown;
+    
+}
+#devBurgs{
+    margin: 5px;
+    padding: 20px;
+    color: brown;
+    background-color: lightyellow;
+}
+
+
+
+
+
+li{
+    list-style-type: none;
+    padding: 5px;
 }
 
